@@ -9,7 +9,8 @@ import lombok.Setter
 @AllArgsConstructor
 class TestModel (
     var nome: String,
-    var idade: Int
+    var idade: Int,
+    var mappedPayload : MutableMap<String, Any?>
 ){
 
 }

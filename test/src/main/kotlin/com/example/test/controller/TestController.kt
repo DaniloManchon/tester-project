@@ -16,7 +16,7 @@ class TestController {
 
     @PostMapping("/test")
     fun testStuff(@RequestBody event: String) : String? {
-       return service.dataValidation(event)
+       return Gson().toJson(service.dataValidation(event))
     }
 
 }
