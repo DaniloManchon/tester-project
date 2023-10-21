@@ -18,7 +18,7 @@ class TestModel (
     var mappedPayload: MutableMap<String, Any?> = LinkedHashMap()
 
     @JsonAnySetter
-    fun setMappedPayload(k: String, v: Any?) {
+    fun setMappedPayloadProps(k: String, v: Any?) {
         this.mappedPayload.put(k, v);
     }
 
