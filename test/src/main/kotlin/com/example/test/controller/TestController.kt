@@ -3,7 +3,6 @@ package com.example.test.controller
 
 import com.example.test.model.TestModel
 import com.example.test.service.TesteService
-import com.google.gson.Gson
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
