@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+    httpbin:
+        image: kennethreitz/httpbin
+        container_name: httpbin
+        environment:
+        ports:
+            - 8091:80
